@@ -99,7 +99,7 @@ const styles = StyleSheet.create({
     borderRadius: 4,
     borderColor: 'black',
   },
-  labelStyle: { marginLeft: 10 },
+  labelStyle: { marginRight: 10 },
 });
 
 export default CheckBox;
