@@ -49,7 +49,7 @@ const DropdownSelectedItemsView = ({
       disabled={disabled}
     >
       <ScrollView
-        horizontal
+       
         alwaysBounceHorizontal
         showsHorizontalScrollIndicator={false}
       >
@@ -115,7 +115,7 @@ const DropdownContent = ({ onPress, style, label, ...rest }: any) => {
 const styles = StyleSheet.create({
   iconStyle: { position: 'absolute', right: 25, top: 25 },
   selectedItemsContainer: {
-    flexDirection: 'row',
+    flexDirection: 'row-reverse',
     flexWrap: 'nowrap',
     alignItems: 'center',
   },

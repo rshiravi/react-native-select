@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
   listItemContainerStyle: {
     paddingHorizontal: 20,
     paddingVertical: 10,
-    flexDirection: 'row',
+    flexDirection: 'row-reverse',
     alignItems: 'center',
   },
 });
